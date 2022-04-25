@@ -21,6 +21,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        /* register content provider */
+        <provider
+            android:authorities="com.malikali.contentproviderapp"
+            android:name="com.malikali.contentproviderapp.data.ContentProviderClass"
+            android:exported="false"/>
     </application>
 
 </manifest>
